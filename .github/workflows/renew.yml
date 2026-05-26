@@ -2,8 +2,8 @@ name: Hiden-cloud Auto Renew
 
 on:
   schedule:
-    - cron: '20 23 * * *'
-    - cron: '15 11 * * *'
+    - cron: '50 23 * * *'
+    #- cron: '15 11 * * *'
   workflow_dispatch:
 
 jobs:
